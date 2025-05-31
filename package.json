@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Bot avanzado de Telegram para análisis de direcciones con IA",
   "main": "api/x4-address-bypass.js",
+  "type": "module",
   "scripts": {
     "dev": "vercel dev",
     "build": "vercel build",
