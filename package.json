@@ -1,0 +1,29 @@
+{
+  "name": "x4-address-bypass",
+  "version": "1.0.0",
+  "description": "Bot avanzado de Telegram para análisis de direcciones con IA",
+  "main": "api/x4-address-bypass.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "address",
+    "gemini",
+    "ai",
+    "location",
+    "proximity"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.15.6",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
